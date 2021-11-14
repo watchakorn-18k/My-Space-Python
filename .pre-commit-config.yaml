@@ -1,0 +1,9 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: 4.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: autopep8
+      - id: end-of-file-fixer
+      - id: name-tests-test
+      - id: requirement-txt-fixer
